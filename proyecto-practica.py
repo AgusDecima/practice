@@ -1,3 +1,6 @@
-practica = "hola mundito"
+practica = "holiwis"
 
 print(practica)
+
+"holiii"
+
