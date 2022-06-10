@@ -3,7 +3,11 @@
 
 #Tipos de variables
 
+cadena = "holiwis"
+# - Las cadenas son conjuntos de caraceteres (string)
+
 Entero = 1
+# - Un número entero es un tipo de variable "int"
 
 Booleano = True
 
@@ -13,6 +17,8 @@ Flotante = 3,45
 print(type(Entero))
 print(type(Booleano))
 print(type(Flotante))
+print(type(cadena))
+
 #--------------------------------------
 
 ComplejoA = 8 + 5j
@@ -32,20 +38,11 @@ print(Cadena1+str(Entero))
 
 #--------------------------------------
 
-# - Las cadenas son conjuntos de caraceteres (string)
+Lista = [1,2,3,4,"hola",5]
 
-cadena = "holiwis"
+Tupla = (1,"holasss",4,16,"adios")
 
-print(cadena)
-print(type(cadena))
-
-#--------------------------------------
-
-# - Un número entero es un tipo de variable "int"
-
-numero = 85
-
-print(type(numero))
+Set = {1,2,3,"mundo",5,"hola"}
 
 #--------------------------------------
 #  IF Y ELSE:
